@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 
 class CheckedExceptionDemo {
 
-    public static void main(String args[])  {
+    public static void main(String args[]) throws ParseException {
         String date = "2021-11-10";
 
         //Specifying the wrong format of the date
